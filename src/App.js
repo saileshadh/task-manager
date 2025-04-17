@@ -33,7 +33,7 @@ function App() {
         <ul>
           {tasks.map((task) => (
             <li key={task.id}>
-              {task.task} <button onClick={() => handleRemoveTask(task.id)}>Remove</button>
+              {task.task} <button onClick={() => handleRemoveTask(task.id)}>Delete</button>
             </li>
           ))}
         </ul>
